@@ -13,4 +13,4 @@ the UI component: RecycleView, CardView
 Download my smartpantry.zip from the repository
 extract to 'AndroidStudioPorjects'directory
 Open the existing project in andoroid studio
-Run the project on android emulator or appetize.zio because my RAM is slow and it makes my laptop crash.
+Run the project on android emulator or appetize.zio because my RAM is slow and it makes my laptop crash so the appetizer.zio does work to run the smart_pantry app which is another alternative.

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerViewPantry"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1" />
+
+ <ImageView
+     android:layout_margin="50dp"
+     android:layout_height="50dp"
+     android:src="@drawable/pantry"
+      android:layout_width="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Smart Pantry"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id ="@+id/btnAdd"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Add Item"
+
+
+    />
+
+    <Button
+        android:id ="@+id/btnSuggest"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Suggest Recipes"
+
+
+        />
+
+    <Button
+        android:id ="@+id/btnSettings"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Settings"
+
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id ="@+id/recyclerPantry"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        tools:itemCount="2"
+
+         android:layout_width="match_parent"/>
+
+
+</LinearLayout>
